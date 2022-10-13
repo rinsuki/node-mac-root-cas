@@ -10,7 +10,6 @@
     "install": "node-pre-gyp install --fallback-to-build"
   },
   "dependencies": {
-    "@mapbox/node-pre-gyp": "^1.0.10",
     "node-gyp": "^9.3.0"
   },
   "files": [
