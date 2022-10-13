@@ -1,0 +1,29 @@
+{
+  "name": "mac-root-cas",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "os": [
+    "darwin"
+  ],
+  "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build"
+  },
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.10",
+    "node-gyp": "^9.3.0"
+  },
+  "files": [
+    "src/**.cc",
+    "lib/**.js",
+    "lib/**.d.ts",
+    "binding.gyp",
+    "build/Release/macrootcas_native.node",
+    "README.md",
+    "yarn.lock"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.8.5",
+    "typescript": "^4.8.4"
+  }
+}
